@@ -53,7 +53,7 @@ def main():
         if not openai_api_key:
             st.warning(
                 'Please insert OpenAI API Key. Instructions [here](https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key)', icon="⚠️")
-            st.stop()
+            #st.stop()
         st.subheader("Your Youtube Video Url")
 
         # select type of document source
