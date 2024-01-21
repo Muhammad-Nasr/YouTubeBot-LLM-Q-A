@@ -9,7 +9,7 @@ from langchain_openai import OpenAIEmbeddings
 # Store and retrieve vectors efficiently
 from langchain.vectorstores import FAISS
 # Create conversational chains
-from langchain.chains import RetrievalQA, RetrievalQAWithSourcesChain
+from langchain.chains import RetrievalQA
 # Use ChatOpenAI LLM for conversations
 from langchain_openai import ChatOpenAI
 # Access OpenAI API
@@ -21,7 +21,6 @@ from prompts_template import PROMPT
 
 import os
 from typing import List, Union
-import langdetect
 
 
 def get_api_key() -> str:
